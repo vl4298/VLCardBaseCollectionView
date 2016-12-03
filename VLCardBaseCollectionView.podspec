@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VLCardBaseCollectionView"
-  s.version      = "0.0.1"
+  s.version      = "0.2.0"
   s.summary      = "Inspired by Photo Walkthrough ( https://dribbble.com/shots/3003609-Photo-Walkthrough )"
 
   # This description is used to generate tags and improve search results.
@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                  * This is a custom collection view that i did base on Photo Walkthrough ( https://dribbble.com/shots/3003609-Photo-Walkthrough )
                    DESC
 
-  s.homepage     = "http://EXAMPLE/VLCardBaseCollectionView"
+  s.homepage     = "https://github.com/vl4298/VLCardBaseCollectionView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -90,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "VLCardBaseCollectionView/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
